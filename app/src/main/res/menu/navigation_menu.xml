@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="none">
+
+      <item
+         android:id="@+id/home"
+          android:title="Home"
+          android:icon="@drawable/home"
+          />
+
+        <item
+            android:id="@+id/work"
+            android:title="Work"
+            android:icon="@drawable/work"
+            />
+
+        <item
+            android:id="@+id/school"
+            android:title="School"
+            android:icon="@drawable/school"
+            />
+
+        <item
+            android:id="@+id/timeline"
+            android:title="Timeline"
+            android:icon="@drawable/timeline"
+            />
+    </group>
+
+
+
+    <item android:title="controls">
+        <menu>
+
+            <group>
+           <item
+              android:id="@+id/settings"
+               android:title="Settings"
+               android:icon="@drawable/settings"
+               />
+
+            <item
+                android:id="@+id/logout"
+                android:title="Logout"
+                android:icon="@drawable/logout"
+                />
+            </group>
+
+        </menu>
+
+    </item>
+
+</menu>
+
